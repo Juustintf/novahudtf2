@@ -81,11 +81,11 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-40"	[$WIN32]
-		"ypos"			"c130"	[$WIN32]
+		"xpos"			"c-35"	[$WIN32]
+		"ypos"			"c120"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"100"
-		"tall"			"16"
+		"tall"			"20"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}	
@@ -95,16 +95,12 @@
 		"fieldName"		"HudBowCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
+		"xpos"			"c-35"	[$WIN32]
+		"ypos"			"c120"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
+		"wide"			"100"
 		"wide_minmode"	"50"
-		"tall"			"8"
+		"tall"			"20"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -1037,8 +1033,8 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-40"	[$WIN32]
-		"ypos"			"c90"	[$WIN32
+		"xpos"			"c110"	[$WIN32]
+		"ypos"			"c120"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 	}	
