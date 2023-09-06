@@ -9,7 +9,7 @@
 		"zpos"			"0"
 		"wide"			"130"
 		"tall"			"65"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/medic_charge_blue_bg"
 		"scaleImage"	"1"	
