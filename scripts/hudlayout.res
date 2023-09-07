@@ -81,7 +81,7 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-42"	[$WIN32]
+		"xpos"			"c-40"	[$WIN32]
 		"ypos"			"c120"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"100"
@@ -93,9 +93,9 @@
 	HudBowCharge
 	{
 		"fieldName"		"HudBowCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-35"	[$WIN32]
+		"visible"		"0"
+		"enabled"		"0"
+		"xpos"			"9999"	[$WIN32]
 		"ypos"			"c120"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"100"
