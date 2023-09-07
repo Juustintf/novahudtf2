@@ -236,7 +236,7 @@
 		"visible" 	"1"
 		"enabled" 	"1"
 		"xpos"		"c0"
-		"ypos"		"c120"
+		"ypos"		"75"
 		"wide"	 	"62"
 		"tall"	 	"35"
 		"priority"	"80"

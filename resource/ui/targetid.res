@@ -4,10 +4,10 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"TargetIDBG"
-		"xpos"			"-65"
+		"xpos"			"-80"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"370"
+		"wide"			"500"
 		"tall"	 		"50"
 		"visible"		"1"
 		"enabled"		"1"
