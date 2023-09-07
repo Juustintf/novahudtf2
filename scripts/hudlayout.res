@@ -81,7 +81,7 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-35"	[$WIN32]
+		"xpos"			"c-42"	[$WIN32]
 		"ypos"			"c120"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"100"
@@ -180,11 +180,8 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r162"	[$WIN32]
-		"ypos"					"r152"	[$WIN32]
-		"ypos_minmode"			"r134"	[$WIN32]
-		"xpos"					"r194"	[$X360]
-		"ypos"					"r174"	[$X360]
+		"xpos"					"c-46"	[$WIN32]
+		"ypos"					"c-20"	[$WIN32]
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -212,7 +209,7 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"wide"					"f0"
-		"tall"					"480"
+		"tall"					"280"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -236,15 +233,13 @@
 	CMainTargetID
 	{
 		"fieldName" 	"CMainTargetID"
-		"visible" 	"0"
+		"visible" 	"1"
 		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"285"
-		"wide"	 	"252"
+		"xpos"		"c0"
+		"ypos"		"c40"
+		"wide"	 	"600"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"priority"	"40"
-		"priority_lodef"	"5"
 
 		if_vr
 		{

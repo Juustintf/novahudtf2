@@ -182,10 +182,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TT Octosquares Trl Rg"
+				"name"		"TT Octosquares Trl Cnd Bd"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" 	"1"
+				"weight"   "400"
 				"outline"	"0"
 			}
 		}
@@ -278,7 +279,7 @@ Scheme
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"	"1"
 			}
 		}
 		ItemEffectMeterLabels

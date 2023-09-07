@@ -5,12 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r184"	[$WIN32]
-		"ypos"			"r92"	[$WIN32]
-		"xpos_minmode"	"r42"	[$WIN32]
-		"ypos_minmode"	"r68"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r124"	[$X360]
+		"xpos"			"c65"	[$WIN32]
+		"ypos"			"c95"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -26,8 +22,7 @@
 		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"50"
-		"visible"		"1"
-		"visible_minmode"	"0"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_horiz2_blue"
 		"scaleImage"	"1"	
