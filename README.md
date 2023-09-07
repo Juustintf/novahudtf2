@@ -8,8 +8,8 @@ Hud is still in its development phases; the current release is a checkpoint/refe
 THE ONLY PARTS THAT HAVE BEEN EDITED:
 
 0.1
-![](https://imgur.com/zVHeEFi) / https://imgur.com/zVHeEFi
-![](https://imgur.com/qsGd10d) / https://imgur.com/qsGd10d
+![](https://imgur.com/zVHeEFi) / (1) https://imgur.com/zVHeEFi  1 https://imgur.com/qsGd10d
+![](https://imgur.com/qsGd10d)  
 
 0.2
 ![](https://imgur.com/a/jCXMSh3)  / https://imgur.com/a/jCXMSh3
