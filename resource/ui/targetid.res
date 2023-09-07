@@ -2,24 +2,17 @@
 {
 	"TargetIDBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"TargetIDBG"
-		"xpos"			"0"
+		"xpos"			"-65"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"252"
+		"wide"			"370"
 		"tall"	 		"50"
-		"autoResize"		"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_2_lodef"	"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		"teambg_3_lodef"	"../hud/color_panel_blu"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -34,7 +27,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"252"
+		"wide"			"300"
 		"tall"	 		"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -56,7 +49,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"252"
+		"wide"			"300"
 		"tall"	 		"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -76,12 +69,9 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"HudFontSmall"
-		"font_minmode"	"TFFontLarge"
+		"font"			"surface14"
 		"xpos"			"8"
-		"xpos_minmode"	"30"
 		"ypos"			"5"
-		"ypos_minmode"	"5"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"24"
@@ -98,14 +88,9 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"FontStoreOriginalPrice"
-		"font_minmode"	"DefaultVerySmall"
+		"font"			"surface10"
 		"xpos"			"8"
-		"xpos_minmode"	"30"
 		"ypos"			"17"	[$WIN32]
-		"ypos_minmode"	"12"	[$WIN32]
-		"ypos"			"22"	[$X360]
-		"ypos_hidef"		"25"	[$X360]
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"15"
@@ -115,8 +100,6 @@
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
 		"textAlignment"		"Left"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"SpectatorGUIHealth"
 	{
@@ -171,14 +154,34 @@
 		"scaleImage"	"1"
 	}
 	
+	//==================================================================================================================================================
+	// HEALTH ANCHOR
+	// This element can be used to move all the health elements at the same time
+	//==================================================================================================================================================
+
+	"EngineerAnchor"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"EngineerAnchor"
+		"xpos"										"c-200"
+		"ypos"										"c0"
+		"zpos"										"0"
+		"wide"										"2"
+		"tall"										"80"
+		"visible"									"0"
+		"enabled"									"1"
+		"alpha"										"0"
+	}
+	
+	
 	"MoveableSubPanel"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"MoveableSubPanel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-5"
-		"wide"			"32"
+		"zpos"			"0"
+		"wide"			"40"
 		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"	

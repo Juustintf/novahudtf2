@@ -236,10 +236,10 @@
 		"visible" 	"1"
 		"enabled" 	"1"
 		"xpos"		"c0"
-		"ypos"		"c40"
-		"wide"	 	"600"
+		"ypos"		"c120"
+		"wide"	 	"62"
 		"tall"	 	"35"
-		"priority"	"40"
+		"priority"	"80"
 
 		if_vr
 		{
@@ -254,7 +254,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"250"
+		"ypos"		"270"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -268,13 +268,12 @@
 	CSecondaryTargetID
 	{
 		"fieldName" 	"CSecondaryTargetID"
-		"visible" 	"0"
+		"visible" 	"1"
 		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"335"
+		"xpos"		"r0"
+		"ypos"		"c30"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"priority"	"35"
 
 		if_vr
