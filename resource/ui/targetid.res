@@ -4,21 +4,21 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"TargetIDBG"
-		"xpos"			"-80"
-		"ypos"			"0"
+		"xpos"			"-70"
+		"ypos"			"-20"
 		"zpos"			"-1"
-		"wide"			"500"
-		"tall"	 		"50"
-		"visible"		"1"
+		"wide"			"252"
+		"tall"	 		"100"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"
 		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
+		"src_corner_height"		"0"				// pixels inside the image
+		"src_corner_width"		"0"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 	"TargetIDBG_Spec_Blue"
 	{
@@ -27,20 +27,20 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"300"
-		"tall"	 		"30"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
+		"wide"			"252"
+		"tall"	 		"35"
+		"autoResize"		"1"
+		"pinCorner"		"1"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_blu"
 		"image_lodef"	"../hud/color_panel_blu"
 		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
+		"src_corner_height"		"30"				// pixels inside the image
+		"src_corner_width"		"30"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
 	}
 	"TargetIDBG_Spec_Red"
 	{
@@ -48,12 +48,12 @@
 		"fieldName"		"TargetIDBG_Spec_Red"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"300"
-		"tall"	 		"30"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
+		"zpos"			"0"
+		"wide"			"252"
+		"tall"	 		"35"
+		"autoResize"		"1"
+		"pinCorner"		"1"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_red"
 		"image_lodef"	"../hud/color_panel_red"
@@ -61,8 +61,8 @@
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
 	}
 	
 	"TargetNameLabel"
@@ -106,13 +106,12 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"3"
-		"xpos_minmode"	"0"
 		"ypos"			"2"
-		"ypos_minmode"	"0"
+		"zpos"			"4"
 		"wide"			"32"
 		"tall"			"32"
-		"visible"		"0"
-		"enabled"		"0"	
+		"visible"		"1"
+		"enabled"		"1"	
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"HudFontSmall"
@@ -155,7 +154,7 @@
 	}
 	
 	//==================================================================================================================================================
-	// HEALTH ANCHOR
+	// ENGINEER ANCHOR
 	// This element can be used to move all the health elements at the same time
 	//==================================================================================================================================================
 

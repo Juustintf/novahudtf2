@@ -212,7 +212,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"BGFrame"
 		"xpos"				"cs-0.5"
-		"ypos"				"-5"
+		"ypos"				"-9999"
 		"zpos"				"0"
 		"wide"				"365"
 		"tall"				"28"

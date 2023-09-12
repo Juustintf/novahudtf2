@@ -10,19 +10,19 @@
 		"pinCorner"		"0"
 		"enabled"		"1"
 				
-		"team1_player_base_offset_x"		"-75"
-		"team1_player_base_y"				"0"
-		"team1_player_delta_x"				"-47"
-		"team1_player_delta_y"				"0"
-		"team2_player_base_offset_x"		"25"
-		"team2_player_base_y"				"0"
-		"team2_player_delta_x"				"47"
-		"team2_player_delta_y"				"0"
+		"team1_player_base_offset_x"		"-310"
+		"team1_player_base_y"				"100"
+		"team1_player_delta_x"				"0"
+		"team1_player_delta_y"				"30"
+		"team2_player_base_offset_x"		"230"
+		"team2_player_base_y"				"100"
+		"team2_player_delta_x"				"0"
+		"team2_player_delta_y"				"30"
 		
 		"playerpanels_kv"
 		{
 			"visible"		"0"
-			"wide"			"50"
+			"wide"			"80"
 			"tall"			"33"
 			"zpos"			"1"
 			
@@ -249,7 +249,7 @@
 		"ControlName"	"Panel"
 		"fieldName"		"TopBar"
 		"visible"		"0"
-		"tall"			"33"
+		"tall"			"0"
 	}
 	"BottomBar"
 	{

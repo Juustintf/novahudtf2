@@ -57,43 +57,43 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"193"	[$WIN32]
-		"ypos"			"c79"	[$WIN32]
+		"xpos"			"220"	[$WIN32]
+		"ypos"			"c76"	[$WIN32]
 		"zpos"			"2"
-		"wide"			"30"	[$WIN32]
-		"tall"			"30"	[$WIN32]
+		"wide"			"35"	[$WIN32]
+		"tall"			"35"	[$WIN32]
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
+		"pin_to_sibling" 
 	}
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"20"
-		"ypos"			"52"	
+		"xpos"			"-1"
+		"ypos"			"0"	
 		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"18"
+		"wide"			"85"
+		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"HudClassHealth"
-		"fgcolor"		"0 0 0 0"
+		"font"			"surface40"
+		"fgcolor"		"ItemRarityLegendary"
 		
-		"pin_to_sibling"							"HealthAnchor"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
+		"pin_to_sibling"	"PlayerStatusHealthValueShadow"
+		
 	}
 	
 	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	           				 	"CExLabel"
 		"fieldName"	  	         				 	"PlayerStatusHealthValueShadow"
-		"xpos"	    		         				"-1"
-		"ypos"	    		         				"0"
+		"xpos"	    		         				"c-125"
+		"ypos"	    		         				"c49"
 		"zpos"	    		         				"5"
 		"wide"		    	         				"85"
 		"tall"		    	         				"90"
@@ -102,9 +102,9 @@
 		"labelText"	  	         				 	"%Health%"
 		"textAlignment"	         				 	"center"
 		"font"                   				 	"surface40"
-		"fgcolor"	     	         				"QualityColorHaunted"
+		"fgcolor"	     	         				"black"
 
-		"pin_to_sibling"							"PlayerStatusHealthValue"
+		"pin_to_sibling"							""
 	}
 	
 	//==================================================================================================================================================

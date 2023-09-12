@@ -82,7 +82,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"bold13"
-		"fgcolor"		"ProgressBarBlue"
+		"fgcolor"		"QualityColorHaunted"
 	}
 	"PlayerStatusPlayerLevel"
 	{

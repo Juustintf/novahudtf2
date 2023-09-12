@@ -84,6 +84,8 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		fgcolor_override "QualityColorrarity4" 
+		bgcolor_override "ItemAttribNeutral"
 	}		
 
 	"ChargeMeter1"
@@ -179,7 +181,6 @@
 		"wide"			"36"
 		"tall"			"36"
 		"visible"		"1"
-		"visible_minmode"		"0"
 		"enabled"		"1"
 		"image"			"../hud/ico_health_cluster"
 		"scaleImage"	"1"	
