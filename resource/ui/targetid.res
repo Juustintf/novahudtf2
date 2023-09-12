@@ -7,12 +7,15 @@
 		"xpos"			"-70"
 		"ypos"			"-20"
 		"zpos"			"-1"
-		"wide"			"252"
+		"wide"			"400"
 		"tall"	 		"100"
-		"visible"		"0"
-		"enabled"		"1"
+		"visible"		"1"
+		"enabled"		"0"
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
 		
 		"src_corner_height"		"0"				// pixels inside the image
 		"src_corner_width"		"0"
@@ -30,7 +33,7 @@
 		"wide"			"252"
 		"tall"	 		"35"
 		"autoResize"		"1"
-		"pinCorner"		"1"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_blu"
@@ -47,19 +50,19 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
 		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
+		"ypos"			"1"
+		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"35"
 		"autoResize"		"1"
-		"pinCorner"		"1"
-		"visible"		"1"
+		"pinCorner"		"0"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_red"
 		"image_lodef"	"../hud/color_panel_red"
 		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
+		"src_corner_height"		"30"				// pixels inside the image
+		"src_corner_width"		"30"
 			
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
@@ -152,26 +155,6 @@
 		"image"			"../hud/leaderboard_streak"
 		"scaleImage"	"1"
 	}
-	
-	//==================================================================================================================================================
-	// ENGINEER ANCHOR
-	// This element can be used to move all the health elements at the same time
-	//==================================================================================================================================================
-
-	"EngineerAnchor"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"EngineerAnchor"
-		"xpos"										"c-200"
-		"ypos"										"c0"
-		"zpos"										"0"
-		"wide"										"2"
-		"tall"										"80"
-		"visible"									"0"
-		"enabled"									"1"
-		"alpha"										"0"
-	}
-	
 	
 	"MoveableSubPanel"
 	{
