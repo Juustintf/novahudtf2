@@ -18,12 +18,10 @@
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"TopBar"
-		"xpos"			"0"
+		"xpos"			"9999"
 		"ypos"			"0"
-		"tall"			"84"	[$WIN32]
-		"tall_minmode"			"20"	[$WIN32]
-		"tall"			"104"	[$X360]		
-		"wide"			"f0"
+		"tall"			"0"	[$WIN32]
+		"wide"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -36,11 +34,11 @@
 		"fieldName"		"BottomBar"
 		"xpos"			"0"
 		"ypos"			"r70"	[$WIN32]
-		"ypos"			"r90"	[$X360]		
+		"ypos"			"r90"	[$X360]
 		"ypos_minmode"	"r20"
 		"tall"			"70"	[$WIN32]
-		"tall_minmode"	"0"		
-		"tall"			"90"	[$X360]		
+		"tall_minmode"	"0"
+		"tall"			"90"	[$X360]
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -52,13 +50,9 @@
 		"ControlName"		"Panel"
 		"fieldName"		"bottombarblank"
 		"xpos"			"0"
-		"ypos"			"r70"	[$WIN32]
-		"ypos"			"r90"	[$X360]		
-		"ypos_minmode"	"r0"
-		"tall"			"70"	[$WIN32]		// this needs to match the size of BottomBar
-		"tall_minmode"	"0"		
-		"tall"			"90"	[$X360]		
-		"wide"			"f0"
+		"ypos"			"9999"	[$WIN32]
+		"tall"			"0"	[$WIN32]		// this needs to match the size of BottomBar
+		"wide"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -144,7 +138,7 @@
 		"xpos_lodef"	"40"
 		"ypos"			"68"
 		"ypos_hidef"	"90"
-		"ypos_lodef"	"30"	
+		"ypos_lodef"	"30"
 		"wide"			"170"
 		"wide_hidef"	"130"
 		"wide_lodef"	"220"
@@ -185,7 +179,7 @@
 		"labelText"		"#TF_Spectator_ChangeTeam"
 		"textAlignment"		"east"
 		"font"			"SpectatorKeyHints"
-		
+
 	}
 	"SwitchCamModeLabel"
 	{
@@ -194,9 +188,9 @@
 		"xpos"			"80"	[$WIN32]
 		"ypos"			"10"	[$WIN32]
 		"xpos"			"128"	[$X360]
-		"ypos"			"40"	[$X360]		
+		"ypos"			"40"	[$X360]
 		"wide"			"125"	[$WIN32]
-		"wide"			"95"	[$X360]		
+		"wide"			"95"	[$X360]
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -215,7 +209,7 @@
 		"xpos"			"5"	[$WIN32]
 		"ypos"			"20"	[$WIN32]
 		"xpos"			"53"	[$X360]
-		"ypos"			"50"	[$X360]		
+		"ypos"			"50"	[$X360]
 		"wide"			"60"	[$WIN32]
 		"wide"			"60"	[$X360]
 		"tall"			"20"
@@ -236,9 +230,9 @@
 		"xpos"			"80"	[$WIN32]
 		"ypos"			"20"	[$WIN32]
 		"xpos"			"128"	[$X360]
-		"ypos"			"50"	[$X360]		
+		"ypos"			"50"	[$X360]
 		"wide"			"125"	[$WIN32]
-		"wide"			"95"	[$X360]	
+		"wide"			"95"	[$X360]
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -257,9 +251,9 @@
 		"xpos"			"5"	[$WIN32]
 		"ypos"			"30"	[$WIN32]
 		"xpos"			"53"	[$X360]
-		"ypos"			"60"	[$X360]		
+		"ypos"			"60"	[$X360]
 		"wide"			"60"	[$WIN32]
-		"wide"			"60"	[$X360]		
+		"wide"			"60"	[$X360]
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -278,7 +272,7 @@
 		"xpos"			"80"	[$WIN32]
 		"ypos"			"30"	[$WIN32]
 		"xpos"			"128"	[$X360]
-		"ypos"			"60"	[$X360]		
+		"ypos"			"60"	[$X360]
 		"wide"			"125"	[$WIN32]
 		"wide"			"95"	[$X360]
 		"tall"			"20"
@@ -333,31 +327,31 @@
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
-		
+
 		"model_ypos"		"10"
 		"model_center_x"	"1"
 		"model_wide"		"90"
 		"model_tall"		"60"
-		
+
 		"text_xpos"		"10"
 		"text_ypos"		"10"
 		"text_wide"		"170"
 		"text_center"	"1"
-		
+
 		"max_text_height"	"100"
 		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
-		
+
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
 		}
-		
+
 		"ItemLabel"
-		{	
+		{
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
 			"font"			"DefaultSmall"
@@ -375,7 +369,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-	}	
+	}
 	"spectator_extras"
 	{
 		"ControlName"	"EditablePanel"
@@ -388,5 +382,5 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-	}		
+	}
 }

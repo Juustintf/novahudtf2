@@ -4,11 +4,12 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"TargetIDBG"
-		"xpos"			"-70"
-		"ypos"			"-20"
+		"xpos"			"-9999"
+		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"400"
-		"tall"	 		"100"
+		"wide"			"37"
+		"tall"	 		"35"
+		"autoResize" "0"
 		"visible"		"1"
 		"enabled"		"0"
 		"image"			"../hud/color_panel_brown"
@@ -16,12 +17,12 @@
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
-		
+
 		"src_corner_height"		"0"				// pixels inside the image
 		"src_corner_width"		"0"
-			
+
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
 	}
 	"TargetIDBG_Spec_Blue"
 	{
@@ -34,14 +35,14 @@
 		"tall"	 		"35"
 		"autoResize"		"1"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_blu"
 		"image_lodef"	"../hud/color_panel_blu"
-		
+
 		"src_corner_height"		"30"				// pixels inside the image
 		"src_corner_width"		"30"
-			
+
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
 	}
@@ -60,16 +61,16 @@
 		"enabled"		"1"
 		"image"			"../hud/color_panel_red"
 		"image_lodef"	"../hud/color_panel_red"
-		
+
 		"src_corner_height"		"30"				// pixels inside the image
 		"src_corner_width"		"30"
-			
+
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
 	}
-	
+
 	"TargetNameLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
 		"font"			"surface14"
@@ -77,7 +78,7 @@
 		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"640"
-		"tall"			"24"
+		"tall"			"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -88,7 +89,7 @@
 		"brighttext"		"0"
 	}
 	"TargetDataLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
 		"font"			"surface10"
@@ -114,14 +115,14 @@
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
-	}	
-	
+	}
+
 	"AmmoIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -138,7 +139,7 @@
 		"image"			"../hud/leaderboard_class_heavy"
 		"scaleImage"	"1"
 	}
-	
+
 	"KillStreakIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -155,7 +156,7 @@
 		"image"			"../hud/leaderboard_streak"
 		"scaleImage"	"1"
 	}
-	
+
 	"MoveableSubPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -166,8 +167,8 @@
 		"wide"			"40"
 		"tall"			"36"
 		"visible"		"1"
-		"enabled"		"1"	
-		
+		"enabled"		"1"
+
 		"MoveableIconBG"
 		{
 			"ControlName"	"CIconPanel"
@@ -183,7 +184,7 @@
 			"iconColor"		"HudBlack"
 			"scaleImage"	"1"
 		}
-		
+
 		"MoveableIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -216,7 +217,7 @@
 		}
 
 		"MoveableKeyLabel"
-		{	
+		{
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
 			"font"			"TFFontMedium"
@@ -234,7 +235,7 @@
 			"textAlignment"		"North"
 			"dulltext"		"0"
 			"brighttext"		"0"
-		}	
+		}
 	}
 	"AvatarImage"
 	{
@@ -250,7 +251,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"color_outline"	"52 48 45 255"
-	}	
+	}
 }
