@@ -1,7 +1,7 @@
 # novahudtf2
 
 
-PRE-ALPHA 0.3.3
+PRE-ALPHA 0.5
 
 Hud is still in its development phases; the current release is a checkpoint/reference if the HUD begins crashing or other related issues
 
